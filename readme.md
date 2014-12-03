@@ -22,5 +22,6 @@
  * <a href="https://github.com/mbostock/topojson/blob/master/topojson.js">topojson.js</a>
  * http://www.convertcsv.com/csv-to-json.htm
  * <a href="https://gist.github.com/alexwebgr/10249781">TopoJSON world map</a>
-
-
+* Responsive 
+ * have added a resize function to make the map responsive + some media queries
+ * to-do: creates issue with scrolling if cursor over svg

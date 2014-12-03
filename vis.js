@@ -8,7 +8,8 @@ var height,
 
 var getMapDimensions = function(){	
 	width = document.getElementById("gdp-map");
-	width = width.offsetWidth;		
+	width = width.offsetWidth;
+	width = width * .80;		
 	height = width / 2;
 	mapScale = 10;
 };
