@@ -7,10 +7,10 @@ var height,
 	mapScale;
 
 var getMapDimensions = function(){	
-		width = document.getElementById("gdp-map");
-		width = width.offsetWidth;		
-		height = width / 2;
-		mapScale = 10;
+	width = document.getElementById("gdp-map");
+	width = width.offsetWidth;		
+	height = width / 2;
+	mapScale = 10;
 };
 
 getMapDimensions();
@@ -214,7 +214,7 @@ function resize(globe) {
 	getMapDimensions();
 
 	projection
-		.scale(width/7)
+		.scale(width/mapScale)
 		.translate([width/2, height/1.5]) // center the projection
 		.precision(0.1);
 	

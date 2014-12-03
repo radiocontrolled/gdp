@@ -2,11 +2,9 @@
 #Visualising GDP data by country
 
 * convert CSV into JSON
- * mung CSV using Excel:
-   * remove white space
-   * give each column a header: Country, Ranking, Country name, GDP and Notes 
-   * match country codes and names to those used in countries.json file. E.g "St. Kitts and Nevis" becomes "Saint Kitts and Nevis" etc.
-   * create a munged CSV with the results called GrossDomesticProduct2013.csv and use http://www.convertcsv.com/csv-to-json.htm to convert GrossDomesticProduct2013.csv to json, gdp.json is the result
+ * mung CSV using Excel - remove white space, give each column a header: Country, Ranking, Country name, GDP and Notes 
+ * match country codes and names to those used in countries.json file. E.g "St. Kitts and Nevis" becomes "Saint Kitts and Nevis" etc.
+ * create a new CSV with the results called GrossDomesticProduct2013.csv and use http://www.convertcsv.com/csv-to-json.htm to convert GrossDomesticProduct2013.csv to json, gdp.json is the result
 * geo-locate countries
  * use <a href="https://gist.github.com/alexwebgr/10249781">TopoJSON world map</a> 
  * countries.json and gdp.json share a country code as the key between both files
