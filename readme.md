@@ -1,5 +1,5 @@
 
-Visualising GDP data by country
+#Visualising GDP data by country
 
 * convert CSV into JSON
  * mung CSV using Excel:
@@ -15,6 +15,7 @@ Visualising GDP data by country
  * to-do
 * add click and hover events to pins showing that country's GDP
  * to-do
+ * create hover over country path for similar functionality 
 * add table of country names and GDPs 
  * function tableSetup() 
 * Tools / data used: 
