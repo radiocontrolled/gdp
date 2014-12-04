@@ -9,10 +9,8 @@
  * use <a href="https://gist.github.com/alexwebgr/10249781">TopoJSON world map</a> 
  * countries.json and gdp.json share a country code as the key between both files
  * in vis.js, loop through countries.json and inside the loop iterate over the properties of gdp.json - d3.js used to draw map paths
-* add map containing country marker pins
- * to-do
-* add click and hover events to pins showing that country's GDP
- * to-do
+* add map containing country marker pins + add click and hover events to pins showing that country's GDP
+ * to-do - not present in this demo but see this fork @ <a href="http://radiocontrolled.github.io/gdp-pins/index.html">http://radiocontrolled.github.io/gdp-pins/index.html</a> for a start
  * create hover over country path for similar functionality 
 * add table of country names and GDPs 
  * function tableSetup() 
