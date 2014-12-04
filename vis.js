@@ -77,7 +77,7 @@ function countries(error, worldTopo, gdp){
 			return cls;
 		})
 		.attr("d", path)
-		// on mouseover and mouseout..
+		// on mouseover and mouseout../*
 		.on("mouseover", function(d){
 					var coordinates = d3.mouse(this);		
 					d3.select("#tooltip")
@@ -105,7 +105,7 @@ function countries(error, worldTopo, gdp){
 			
 	// Create an SVG circle for each node - but how to center it on a path??
 	/*
-	var nodes = globe.append("g")
+	var world = globe.append("g")
 		.selectAll("circle")
 		.data(countriesData)
 		.enter()
@@ -115,6 +115,12 @@ function countries(error, worldTopo, gdp){
 		.attr("r", function(d,i){
 			return 6;
 		})
+		.attr("cx", function(d){
+        	return path.centroid(d)[0];
+    	})
+    	.attr("cy", function(d){
+        	return  path.centroid(d)[1];
+    	})
 		.style("fill", function(d,i){
 			return "#4bc6df;"
 		})
